@@ -1,0 +1,6 @@
+<map id="defaultCurtain" name="defaultCurtain">
+<area shape="rect" id="node2" href="$classcurtain.html" title="curtain" alt="" coords="87,160,148,189"/>
+<area shape="rect" id="node4" href="$classdraw_observer.html" title="drawObserver" alt="" coords="5,83,104,112"/>
+<area shape="rect" id="node6" href="$classobserver.html" title="observer" alt="" coords="83,5,152,35"/>
+<area shape="rect" id="node8" href="$classsound_observer.html" title="soundObserver" alt="" coords="128,83,235,112"/>
+</map>

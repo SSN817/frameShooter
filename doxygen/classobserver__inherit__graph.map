@@ -1,0 +1,22 @@
+<map id="observer" name="observer">
+<area shape="rect" id="node3" href="$classdraw_observer.html" title="drawObserver" alt="" coords="155,325,253,355"/>
+<area shape="rect" id="node25" href="$classenemy_bullet_observer.html" title="enemyBulletObserver" alt="" coords="132,165,276,195"/>
+<area shape="rect" id="node28" href="$classenemy_shooter_observer.html" title="enemyShooterObserver" alt="" coords="125,5,283,35"/>
+<area shape="rect" id="node31" href="$classinput_observer.html" title="inputObserver" alt="" coords="153,432,255,461"/>
+<area shape="rect" id="node36" href="$classitem_observer.html" title="itemObserver" alt="" coords="155,485,253,515"/>
+<area shape="rect" id="node38" href="$classmove_observer.html" title="moveObserver" alt="" coords="153,219,255,248"/>
+<area shape="rect" id="node47" href="$classplayer_bullet_observer.html" title="playerBulletObserver" alt="" coords="133,379,275,408"/>
+<area shape="rect" id="node50" href="$classplayer_shooter_observer.html" title="playerShooterObserver" alt="" coords="128,112,280,141"/>
+<area shape="rect" id="node53" href="$classreproduction_observer.html" title="reproductionObserver" alt="" coords="132,59,276,88"/>
+<area shape="rect" id="node57" href="$classsound_observer.html" title="soundObserver" alt="" coords="151,272,257,301"/>
+<area shape="rect" id="node5" href="$classbasic_enemy.html" title="basicEnemy" alt="" coords="348,59,441,88"/>
+<area shape="rect" id="node7" href="$classbasic_enemy_bullet.html" title="basicEnemyBullet" alt="" coords="332,165,457,195"/>
+<area shape="rect" id="node9" href="$classcurtain.html" title="curtain" alt="" coords="364,272,425,301"/>
+<area shape="rect" id="node13" href="$classdefault_bullet.html" title="defaultBullet" alt="" coords="348,325,441,355"/>
+<area shape="rect" id="node15" href="$classdefault_shooter.html" title="defaultShooter" alt="" coords="343,112,447,141"/>
+<area shape="rect" id="node17" href="$classframe.html" title="frame" alt="" coords="368,219,421,248"/>
+<area shape="rect" id="node19" href="$classhorizontal_slider.html" title="horizontalSlider" alt="" coords="340,379,449,408"/>
+<area shape="rect" id="node21" href="$classrectangle_button.html" title="rectangleButton" alt="" coords="339,485,451,515"/>
+<area shape="rect" id="node23" href="$classvertical_slider.html" title="verticalSlider" alt="" coords="348,432,441,461"/>
+<area shape="rect" id="node11" href="$classdefault_curtain.html" title="defaultCurtain" alt="" coords="507,272,608,301"/>
+</map>

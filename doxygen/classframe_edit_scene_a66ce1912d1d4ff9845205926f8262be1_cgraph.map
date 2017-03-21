@@ -1,0 +1,8 @@
+<map id="frameEditScene::movePlane" name="frameEditScene::movePlane">
+<area shape="rect" id="node3" href="$namespacegio.html#a3f915167843ca0e4182ab223eac8abde" title="gio::isMouseHitted" alt="" coords="247,5,377,35"/>
+<area shape="rect" id="node5" href="$namespacegio.html#ae77a7b12e4d2da77dd0f6e84f2ed848f" title="gio::rtov2D" alt="" coords="271,59,353,88"/>
+<area shape="rect" id="node7" href="$namespacegio.html#af69f84947a8975842147742e03658530" title="gio::nowMouse" alt="" coords="257,112,367,141"/>
+<area shape="rect" id="node9" href="$namespacegio.html#a994d4132e768861f4e079fae14bb0c38" title="gio::isMousePressed" alt="" coords="240,165,384,195"/>
+<area shape="rect" id="node11" href="$namespacegio.html#aad7b8e9f41029fcb1cdbfea6c6f2263f" title="gio::isKeyHitted" alt="" coords="255,219,369,248"/>
+<area shape="rect" id="node13" href="$classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="263,272,361,301"/>
+</map>

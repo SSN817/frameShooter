@@ -1,0 +1,6 @@
+<map id="defaultShooter::move" name="defaultShooter::move">
+<area shape="rect" id="node3" href="$namespacegio.html#a724922aff404b998562d87967faefec0" title="gio::isKeyPressed" alt="" coords="208,5,336,35"/>
+<area shape="rect" id="node5" href="$structrectangle.html#a41e97d3a51c9fd79d0b4dd9559a21c0b" title="rectangle::setPosition" alt="" coords="199,59,345,88"/>
+<area shape="rect" id="node7" href="$classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="407,32,505,61"/>
+<area shape="rect" id="node9" href="$structrectangle.html#a388da33db573c80c6207573ea19586d4" title="rectangle::update" alt="" coords="395,85,517,115"/>
+</map>

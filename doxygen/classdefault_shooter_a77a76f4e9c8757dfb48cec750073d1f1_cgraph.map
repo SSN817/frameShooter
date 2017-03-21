@@ -1,0 +1,7 @@
+<map id="defaultShooter::reproduction" name="defaultShooter::reproduction">
+<area shape="rect" id="node3" href="$namespacegio.html#aad7b8e9f41029fcb1cdbfea6c6f2263f" title="gio::isKeyHitted" alt="" coords="264,5,379,35"/>
+<area shape="rect" id="node5" href="$classdefault_bullet.html#a5517dea4552e6ab4c7b615c250f84359" title="defaultBullet::setPosition" alt="" coords="239,59,404,88"/>
+<area shape="rect" id="node7" href="$classsubject_set.html#ac4d2c53d83c39821f933181eccd394c0" title="subjectSet::setObserver" alt="" coords="241,112,401,141"/>
+<area shape="rect" id="node9" href="$classsubject.html#a9c0767ad16340212e16372b130e9f10b" title="subject::setObserver" alt="" coords="629,112,771,141"/>
+<area shape="rect" id="node11" href="$classcollision_subjects.html#ac6e71923dd3bd98c70f8356291a59453" title="collisionSubjects::\lsetObserver" alt="" coords="453,133,581,179"/>
+</map>

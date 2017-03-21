@@ -1,0 +1,10 @@
+<map id="horizontalSlider::checkInput" name="horizontalSlider::checkInput">
+<area shape="rect" id="node3" href="$namespacegio.html#a6148ed624f60f3530d50299148719525" title="gio::rtovx" alt="" coords="272,5,347,35"/>
+<area shape="rect" id="node5" href="$namespacegio.html#a12b7aaa32417f0119084dda1ec0ec41e" title="gio::nowMouseX" alt="" coords="252,59,367,88"/>
+<area shape="rect" id="node7" href="$namespacegio.html#a2b21e4636333f15d785ecf1a36a7f0ac" title="gio::rtovy" alt="" coords="272,112,347,141"/>
+<area shape="rect" id="node9" href="$namespacegio.html#a6c162c3097d4231cfabdb033432ef843" title="gio::nowMouseY" alt="" coords="251,165,368,195"/>
+<area shape="rect" id="node11" href="$namespacegio.html#a3f915167843ca0e4182ab223eac8abde" title="gio::isMouseHitted" alt="" coords="244,219,375,248"/>
+<area shape="rect" id="node13" href="$namespacegio.html#ae77a7b12e4d2da77dd0f6e84f2ed848f" title="gio::rtov2D" alt="" coords="268,272,351,301"/>
+<area shape="rect" id="node15" href="$namespacegio.html#af69f84947a8975842147742e03658530" title="gio::nowMouse" alt="" coords="255,325,364,355"/>
+<area shape="rect" id="node17" href="$namespacegio.html#a994d4132e768861f4e079fae14bb0c38" title="gio::isMousePressed" alt="" coords="237,379,381,408"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="rectangleButton::checkInput" name="rectangleButton::checkInput">
+<area shape="rect" id="node3" href="$namespacegio.html#a3f915167843ca0e4182ab223eac8abde" title="gio::isMouseHitted" alt="" coords="237,5,368,35"/>
+<area shape="rect" id="node5" href="$namespacegio.html#af69f84947a8975842147742e03658530" title="gio::nowMouse" alt="" coords="248,59,357,88"/>
+<area shape="rect" id="node7" href="$namespacegio.html#aad7b8e9f41029fcb1cdbfea6c6f2263f" title="gio::isKeyHitted" alt="" coords="245,112,360,141"/>
+</map>

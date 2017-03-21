@@ -1,0 +1,7 @@
+<map id="rectangleButton" name="rectangleButton">
+<area shape="rect" id="node2" href="$classdraw_observer.html" title="drawObserver" alt="" coords="5,83,104,112"/>
+<area shape="rect" id="node4" href="$classobserver.html" title="observer" alt="" coords="147,5,216,35"/>
+<area shape="rect" id="node6" href="$classsound_observer.html" title="soundObserver" alt="" coords="128,83,235,112"/>
+<area shape="rect" id="node11" href="$classinput_observer.html" title="inputObserver" alt="" coords="259,83,360,112"/>
+<area shape="rect" id="node9" href="$classarrow_selectable_item.html" title="arrowSelectableItem" alt="" coords="384,83,523,112"/>
+</map>

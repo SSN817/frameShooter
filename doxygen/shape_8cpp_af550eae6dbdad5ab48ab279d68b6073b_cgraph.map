@@ -1,0 +1,4 @@
+<map id="checkCollide" name="checkCollide">
+<area shape="rect" id="node3" href="$classcollisionable_object.html#acf55755375d2937d259c2dd21e8d30df" title="collisionableObject\l::getShape" alt="" coords="153,5,284,51"/>
+<area shape="rect" id="node5" href="$structshape.html#ad650e02c3d70d9bd5ea2767a87111ce5" title="shape::checkCollide" alt="" coords="149,75,288,104"/>
+</map>

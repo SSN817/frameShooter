@@ -1,0 +1,20 @@
+<map id="subjectSet::update" name="subjectSet::update">
+<area shape="rect" id="node3" href="$classdraw_subject.html#aef8bc0b26267b2fff5affebb6a09aa1d" title="drawSubject::run" alt="" coords="208,5,325,35"/>
+<area shape="rect" id="node5" href="$classsound_subject.html#a20b6524ba9df8afaff880cfdef242b76" title="soundSubject::run" alt="" coords="204,59,329,88"/>
+<area shape="rect" id="node7" href="$classmove_subject.html#a59bbdcbf5567bba260d7449e484751d0" title="moveSubject::run" alt="" coords="205,112,328,141"/>
+<area shape="rect" id="node9" href="$classinput_subject.html#a1581049c4ba8b77a3a437ccf5a404a43" title="inputSubject::run" alt="" coords="207,165,327,195"/>
+<area shape="rect" id="node11" href="$classcollision_subjects.html#a1fa1dae92f3b59cd3b71a51d6a437d1b" title="collisionSubjects::run" alt="" coords="193,219,340,248"/>
+<area shape="rect" id="node33" href="$classreproduction_subject.html#a13f8906bd6ccea6b673b2e33c5fc4cdc" title="reproductionSubject::run" alt="" coords="185,272,348,301"/>
+<area shape="rect" id="node35" href="$classsubject.html#ac804afe2572839b9ad78974d3c8676b1" title="subject::deleteObservers" alt="" coords="184,325,349,355"/>
+<area shape="rect" id="node37" href="$classcollision_subjects.html#acda53e6734847ad94ebacbf5b7bf7982" title="collisionSubjects::\ldeleteObservers" alt="" coords="203,378,331,425"/>
+<area shape="rect" id="node13" href="$classsubject.html#aeb368661c2f09cbdefc5ce6348b10f27" title="subject::size" alt="" coords="435,16,531,45"/>
+<area shape="rect" id="node15" href="$shape_8cpp.html#af550eae6dbdad5ab48ab279d68b6073b" title="checkCollide" alt="" coords="435,69,531,99"/>
+<area shape="rect" id="node21" href="$classsubject.html#a305c5a4aee27cf755934423fb6c081eb" title="subject::at" alt="" coords="441,123,524,152"/>
+<area shape="rect" id="node23" href="$classplayer_shooter_observer.html#a70e811658087a3a36920f0803ae327bd" title="playerShooterObserver\l::collideWith" alt="" coords="407,175,559,222"/>
+<area shape="rect" id="node25" href="$classenemy_shooter_observer.html#a9af104d24b363717e802e6380e2173a8" title="enemyShooterObserver\l::collideWith" alt="" coords="404,245,561,291"/>
+<area shape="rect" id="node27" href="$classenemy_bullet_observer.html#aa825f054a811f4fec1c8a832a2648f34" title="enemyBulletObserver\l::collideWith" alt="" coords="411,314,555,361"/>
+<area shape="rect" id="node29" href="$classitem_observer.html#ac89f4972c20bb2846c64b159746dfc39" title="itemObserver::collideWith" alt="" coords="397,384,568,413"/>
+<area shape="rect" id="node31" href="$classplayer_bullet_observer.html#afe9aa7dbf370fe86c3849b9ec0dddb84" title="playerBulletObserver\l::collideWith" alt="" coords="412,437,553,483"/>
+<area shape="rect" id="node17" href="$classcollisionable_object.html#acf55755375d2937d259c2dd21e8d30df" title="collisionableObject\l::getShape" alt="" coords="620,30,751,77"/>
+<area shape="rect" id="node19" href="$structshape.html#ad650e02c3d70d9bd5ea2767a87111ce5" title="shape::checkCollide" alt="" coords="616,100,755,129"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="C:/Users/a/Documents/Visual Studio 2010/Projects/frameShooter/frameShooter/main.h" name="C:/Users/a/Documents/Visual Studio 2010/Projects/frameShooter/frameShooter/main.h">
+<area shape="rect" id="node11" href="$vector2_d_8h.html" title="vector2D.h" alt="" coords="323,117,405,147"/>
+<area shape="rect" id="node13" href="$gameio_8h.html" title="gameio.h" alt="" coords="429,117,504,147"/>
+<area shape="rect" id="node15" href="$shape_8h.html" title="shape.h" alt="" coords="528,117,595,147"/>
+<area shape="rect" id="node17" href="$observer_8h.html" title="observer.h" alt="" coords="619,117,699,147"/>
+<area shape="rect" id="node19" href="$concrete_observers_8h.html" title="concreteObservers.h" alt="" coords="723,117,864,147"/>
+<area shape="rect" id="node35" href="$subject_8h.html" title="subject.h" alt="" coords="888,117,963,147"/>
+<area shape="rect" id="node37" href="$scene_8h.html" title="scene.h" alt="" coords="987,117,1053,147"/>
+<area shape="rect" id="node39" href="$menu_scene_8h.html" title="menuScene.h" alt="" coords="1077,117,1179,147"/>
+<area shape="rect" id="node41" href="$game_scene_8h.html" title="gameScene.h" alt="" coords="1203,117,1304,147"/>
+<area shape="rect" id="node43" href="$effect_tuning_scene_8h.html" title="effectTuningScene.h" alt="" coords="1328,117,1467,147"/>
+<area shape="rect" id="node45" href="$frame_edit_scene_8h.html" title="frameEditScene.h" alt="" coords="1491,117,1616,147"/>
+<area shape="rect" id="node47" href="$orbit_edit_scene_8h.html" title="orbitEditScene.h" alt="" coords="1640,117,1757,147"/>
+<area shape="rect" id="node21" href="$effects_8h.html" title="effects.h" alt="" coords="375,195,444,224"/>
+<area shape="rect" id="node23" href="$curtains_8h.html" title="curtains.h" alt="" coords="468,195,545,224"/>
+<area shape="rect" id="node25" href="$game_uset_interfaces_8h.html" title="gameUsetInterfaces.h" alt="" coords="569,195,716,224"/>
+<area shape="rect" id="node27" href="$player_bullets_8h.html" title="playerBullets.h" alt="" coords="740,195,847,224"/>
+<area shape="rect" id="node29" href="$player_shooters_8h.html" title="playerShooters.h" alt="" coords="871,195,991,224"/>
+<area shape="rect" id="node31" href="$enemy_bullets_8h.html" title="enemyBullets.h" alt="" coords="1015,195,1127,224"/>
+<area shape="rect" id="node33" href="$enemy_shooters_8h.html" title="enemyShooters.h" alt="" coords="1151,195,1273,224"/>
+</map>

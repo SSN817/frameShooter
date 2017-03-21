@@ -1,0 +1,8 @@
+<map id="frameEditScene::run" name="frameEditScene::run">
+<area shape="rect" id="node3" href="$classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="203,5,301,35"/>
+<area shape="rect" id="node5" href="$namespacegio.html#a23dda4dc9ac01934a0adcefbc0143052" title="gio::drawVRect" alt="" coords="197,59,307,88"/>
+<area shape="rect" id="node9" href="$namespacegio.html#a4481bba075f1d30f8b39a8e1ffc299bb" title="gio::vtorx" alt="" coords="215,112,289,141"/>
+<area shape="rect" id="node11" href="$namespacegio.html#aa119deb70d77cd2dffd5af26bcf4d0f8" title="gio::vtory" alt="" coords="215,165,289,195"/>
+<area shape="rect" id="node13" href="$namespacegio.html#aad7b8e9f41029fcb1cdbfea6c6f2263f" title="gio::isKeyHitted" alt="" coords="195,219,309,248"/>
+<area shape="rect" id="node7" href="$namespacegio.html#a105a705202f7d8f435a4f285920fc80b" title="gio::vtor2D" alt="" coords="357,59,440,88"/>
+</map>

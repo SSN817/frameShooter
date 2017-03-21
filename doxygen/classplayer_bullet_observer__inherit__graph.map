@@ -1,0 +1,5 @@
+<map id="playerBulletObserver" name="playerBulletObserver">
+<area shape="rect" id="node7" href="$classdefault_bullet.html" title="defaultBullet" alt="" coords="55,160,148,189"/>
+<area shape="rect" id="node2" href="$classobserver.html" title="observer" alt="" coords="5,5,75,35"/>
+<area shape="rect" id="node4" href="$classcollisionable_object.html" title="collisionableObject" alt="" coords="99,5,229,35"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="collisionableObject" name="collisionableObject">
+<area shape="rect" id="node3" href="$classenemy_bullet_observer.html" title="enemyBulletObserver" alt="" coords="191,5,335,35"/>
+<area shape="rect" id="node7" href="$classenemy_shooter_observer.html" title="enemyShooterObserver" alt="" coords="184,59,341,88"/>
+<area shape="rect" id="node11" href="$classitem_observer.html" title="itemObserver" alt="" coords="213,112,312,141"/>
+<area shape="rect" id="node13" href="$classplayer_bullet_observer.html" title="playerBulletObserver" alt="" coords="192,165,333,195"/>
+<area shape="rect" id="node17" href="$classplayer_shooter_observer.html" title="playerShooterObserver" alt="" coords="187,219,339,248"/>
+<area shape="rect" id="node5" href="$classbasic_enemy_bullet.html" title="basicEnemyBullet" alt="" coords="391,5,516,35"/>
+<area shape="rect" id="node9" href="$classbasic_enemy.html" title="basicEnemy" alt="" coords="407,59,500,88"/>
+<area shape="rect" id="node15" href="$classdefault_bullet.html" title="defaultBullet" alt="" coords="407,165,500,195"/>
+<area shape="rect" id="node19" href="$classdefault_shooter.html" title="defaultShooter" alt="" coords="401,219,505,248"/>
+</map>

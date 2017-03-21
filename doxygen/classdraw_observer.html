@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>frameShooter: drawObserver クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">frameShooter
+   </div>
+   <div id="projectbrief">partialBreakdownSTG</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="inherits.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>名前空間</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="classdraw_observer-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">drawObserver クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="observer_8h_source.html">observer.h</a>&gt;</code></p>
+<div class="dynheader">
+drawObserver の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classdraw_observer__inherit__graph.png" border="0" usemap="#draw_observer_inherit__map" alt="Inheritance graph"/></div>
+<map name="draw_observer_inherit__map" id="draw_observer_inherit__map">
+<area shape="rect" id="node5" href="classbasic_enemy.html" title="basicEnemy" alt="" coords="292,5,385,35"/><area shape="rect" id="node7" href="classbasic_enemy_bullet.html" title="basicEnemyBullet" alt="" coords="276,59,401,88"/><area shape="rect" id="node9" href="classcurtain.html" title="curtain" alt="" coords="308,112,369,141"/><area shape="rect" id="node13" href="classdefault_bullet.html" title="defaultBullet" alt="" coords="292,165,385,195"/><area shape="rect" id="node15" href="classdefault_shooter.html" title="defaultShooter" alt="" coords="287,219,391,248"/><area shape="rect" id="node17" href="classframe.html" title="frame" alt="" coords="312,272,365,301"/><area shape="rect" id="node19" href="classhorizontal_slider.html" title="horizontalSlider" alt="" coords="284,325,393,355"/><area shape="rect" id="node21" href="classrectangle_button.html" title="rectangleButton" alt="" coords="283,379,395,408"/><area shape="rect" id="node23" href="classvertical_slider.html" title="verticalSlider" alt="" coords="292,432,385,461"/><area shape="rect" id="node2" href="classobserver.html" title="observer" alt="" coords="7,219,76,248"/><area shape="rect" id="node11" href="classdefault_curtain.html" title="defaultCurtain" alt="" coords="451,112,552,141"/></map>
+<center><span class="legend">[<a href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+drawObserver 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classdraw_observer__coll__graph.png" border="0" usemap="#draw_observer_coll__map" alt="Collaboration graph"/></div>
+<map name="draw_observer_coll__map" id="draw_observer_coll__map">
+<area shape="rect" id="node2" href="classobserver.html" title="observer" alt="" coords="20,5,89,35"/></map>
+<center><span class="legend">[<a href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1a6429992269d15d00aab2164b489d0c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdraw_observer.html#a1a6429992269d15d00aab2164b489d0c">drawObserver</a> ()</td></tr>
+<tr class="separator:a1a6429992269d15d00aab2164b489d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2192aa96c200364965fbb3b0403334c8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdraw_observer.html#a2192aa96c200364965fbb3b0403334c8">~drawObserver</a> ()</td></tr>
+<tr class="separator:a2192aa96c200364965fbb3b0403334c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023e41d4b9e45033c3fac42f786a595a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdraw_observer.html#a023e41d4b9e45033c3fac42f786a595a">draw</a> ()</td></tr>
+<tr class="separator:a023e41d4b9e45033c3fac42f786a595a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classobserver"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobserver')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="classobserver.html">observer</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:aa4532f9ab8f7bcb2519c3679f49decec inherit pub_methods_classobserver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobserver.html#aa4532f9ab8f7bcb2519c3679f49decec">observer</a> (void)</td></tr>
+<tr class="separator:aa4532f9ab8f7bcb2519c3679f49decec inherit pub_methods_classobserver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7613390943bd836d2e303c5b9075982b inherit pub_methods_classobserver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobserver.html#a7613390943bd836d2e303c5b9075982b">~observer</a> (void)</td></tr>
+<tr class="separator:a7613390943bd836d2e303c5b9075982b inherit pub_methods_classobserver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1414b54440d3e4b2645881d32e06c9df inherit pub_methods_classobserver"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobserver.html#a1414b54440d3e4b2645881d32e06c9df">isAlive</a> ()</td></tr>
+<tr class="separator:a1414b54440d3e4b2645881d32e06c9df inherit pub_methods_classobserver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7073e16cc5da889f1cf3210e7f4568a inherit pub_methods_classobserver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobserver.html#af7073e16cc5da889f1cf3210e7f4568a">sayonara</a> ()</td></tr>
+<tr class="separator:af7073e16cc5da889f1cf3210e7f4568a inherit pub_methods_classobserver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a1a6429992269d15d00aab2164b489d0c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">drawObserver::drawObserver </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2192aa96c200364965fbb3b0403334c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual drawObserver::~drawObserver </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a023e41d4b9e45033c3fac42f786a595a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void drawObserver::draw </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classhorizontal_slider.html#ad20ba55deaa429aca5267ab662e2b43f">horizontalSlider</a>, <a class="el" href="classvertical_slider.html#a4300d951acb9d974efdbbb4564c97e8d">verticalSlider</a>, <a class="el" href="classrectangle_button.html#a633bf73425642ac7f9056339229b8564">rectangleButton</a>, <a class="el" href="classdefault_curtain.html#a514e248708db58137f6486b52fa6e8b9">defaultCurtain</a>, <a class="el" href="classframe.html#a3b34f078d89a1fd0d589447b0b64a8ca">frame</a>, <a class="el" href="classdefault_shooter.html#a727a8bf7fe1ecfec246f696d7822d77f">defaultShooter</a>, <a class="el" href="classbasic_enemy.html#aab01b10c12a61ad19db6fb54c8f92b85">basicEnemy</a>, <a class="el" href="classbasic_enemy_bullet.html#a25d4f42f4f3281e286153b96343296a7">basicEnemyBullet</a>, <a class="el" href="classdefault_bullet.html#af81454df27dcb58532b53dff38c5988f">defaultBullet</a>で再実装されています。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/a/Documents/Visual Studio 2010/Projects/frameShooter/frameShooter/<a class="el" href="observer_8h_source.html">observer.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+2017年03月21日(火) 10時49分55秒作成 - frameShooter / 構成:  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

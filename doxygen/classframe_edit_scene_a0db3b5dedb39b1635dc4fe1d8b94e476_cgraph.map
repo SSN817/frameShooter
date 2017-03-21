@@ -1,0 +1,6 @@
+<map id="frameEditScene::edit" name="frameEditScene::edit">
+<area shape="rect" id="node3" href="$namespacegio.html#a3f915167843ca0e4182ab223eac8abde" title="gio::isMouseHitted" alt="" coords="201,5,332,35"/>
+<area shape="rect" id="node5" href="$structrectangle.html#aa6363f3c1d81a5945a97c3e7f09a19d3" title="rectangle::setShape" alt="" coords="197,59,336,88"/>
+<area shape="rect" id="node7" href="$classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="396,32,495,61"/>
+<area shape="rect" id="node9" href="$structrectangle.html#a388da33db573c80c6207573ea19586d4" title="rectangle::update" alt="" coords="384,85,507,115"/>
+</map>

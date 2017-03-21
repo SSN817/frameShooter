@@ -1,0 +1,7 @@
+<map id="frameEditScene::drawPointer" name="frameEditScene::drawPointer">
+<area shape="rect" id="node3" href="$namespacegio.html#ae77a7b12e4d2da77dd0f6e84f2ed848f" title="gio::rtov2D" alt="" coords="259,5,341,35"/>
+<area shape="rect" id="node5" href="$namespacegio.html#af69f84947a8975842147742e03658530" title="gio::nowMouse" alt="" coords="245,59,355,88"/>
+<area shape="rect" id="node7" href="$frame_edit_scene_8cpp.html#ac1d4ee09782b3228b641c1ef725fc451" title="round" alt="" coords="273,112,327,141"/>
+<area shape="rect" id="node9" href="$namespacegio.html#a4481bba075f1d30f8b39a8e1ffc299bb" title="gio::vtorx" alt="" coords="263,165,337,195"/>
+<area shape="rect" id="node11" href="$namespacegio.html#aa119deb70d77cd2dffd5af26bcf4d0f8" title="gio::vtory" alt="" coords="263,219,337,248"/>
+</map>

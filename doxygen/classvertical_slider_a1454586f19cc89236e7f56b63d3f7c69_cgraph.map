@@ -1,0 +1,6 @@
+<map id="verticalSlider::checkInput" name="verticalSlider::checkInput">
+<area shape="rect" id="node3" href="$namespacegio.html#af69f84947a8975842147742e03658530" title="gio::nowMouse" alt="" coords="239,5,348,35"/>
+<area shape="rect" id="node5" href="$namespacegio.html#a3f915167843ca0e4182ab223eac8abde" title="gio::isMouseHitted" alt="" coords="228,59,359,88"/>
+<area shape="rect" id="node7" href="$namespacegio.html#ae77a7b12e4d2da77dd0f6e84f2ed848f" title="gio::rtov2D" alt="" coords="252,112,335,141"/>
+<area shape="rect" id="node9" href="$namespacegio.html#a994d4132e768861f4e079fae14bb0c38" title="gio::isMousePressed" alt="" coords="221,165,365,195"/>
+</map>

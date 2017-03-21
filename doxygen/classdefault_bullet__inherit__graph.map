@@ -1,0 +1,8 @@
+<map id="defaultBullet" name="defaultBullet">
+<area shape="rect" id="node2" href="$classplayer_bullet_observer.html" title="playerBulletObserver" alt="" coords="5,83,147,112"/>
+<area shape="rect" id="node4" href="$classobserver.html" title="observer" alt="" coords="247,5,316,35"/>
+<area shape="rect" id="node8" href="$classdraw_observer.html" title="drawObserver" alt="" coords="171,83,269,112"/>
+<area shape="rect" id="node11" href="$classmove_observer.html" title="moveObserver" alt="" coords="293,83,395,112"/>
+<area shape="rect" id="node14" href="$classsound_observer.html" title="soundObserver" alt="" coords="419,83,525,112"/>
+<area shape="rect" id="node6" href="$classcollisionable_object.html" title="collisionableObject" alt="" coords="11,5,141,35"/>
+</map>

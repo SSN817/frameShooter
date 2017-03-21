@@ -1,0 +1,7 @@
+<map id="scene" name="scene">
+<area shape="rect" id="node3" href="$classeffect_tuning_scene.html" title="effectTuningScene" alt="" coords="5,83,133,112"/>
+<area shape="rect" id="node5" href="$classframe_edit_scene.html" title="frameEditScene" alt="" coords="157,83,272,112"/>
+<area shape="rect" id="node7" href="$classgame_scene.html" title="gameScene" alt="" coords="296,83,387,112"/>
+<area shape="rect" id="node9" href="$classmenu_scene.html" title="menuScene" alt="" coords="411,83,501,112"/>
+<area shape="rect" id="node11" href="$classorbit_edit_scene.html" title="orbitEditScene" alt="" coords="525,83,632,112"/>
+</map>

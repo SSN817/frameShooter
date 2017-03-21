@@ -1,0 +1,4 @@
+<map id="playerShooterObserver" name="playerShooterObserver">
+<area shape="rect" id="node2" href="$classobserver.html" title="observer" alt="" coords="5,5,75,35"/>
+<area shape="rect" id="node4" href="$classcollisionable_object.html" title="collisionableObject" alt="" coords="99,5,229,35"/>
+</map>

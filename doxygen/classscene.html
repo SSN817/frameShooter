@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>frameShooter: scene クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">frameShooter
+   </div>
+   <div id="projectbrief">partialBreakdownSTG</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="inherits.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>名前空間</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a> &#124;
+<a href="classscene-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">scene クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="scene_8h_source.html">scene.h</a>&gt;</code></p>
+<div class="dynheader">
+scene の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classscene__inherit__graph.png" border="0" usemap="#scene_inherit__map" alt="Inheritance graph"/></div>
+<map name="scene_inherit__map" id="scene_inherit__map">
+<area shape="rect" id="node3" href="classeffect_tuning_scene.html" title="effectTuningScene" alt="" coords="5,83,133,112"/><area shape="rect" id="node5" href="classframe_edit_scene.html" title="frameEditScene" alt="" coords="157,83,272,112"/><area shape="rect" id="node7" href="classgame_scene.html" title="gameScene" alt="" coords="296,83,387,112"/><area shape="rect" id="node9" href="classmenu_scene.html" title="menuScene" alt="" coords="411,83,501,112"/><area shape="rect" id="node11" href="classorbit_edit_scene.html" title="orbitEditScene" alt="" coords="525,83,632,112"/></map>
+<center><span class="legend">[<a href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+scene 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classscene__coll__graph.png" border="0" usemap="#scene_coll__map" alt="Collaboration graph"/></div>
+<map name="scene_coll__map" id="scene_coll__map">
+<area shape="rect" id="node2" href="classsubject_set.html" title="subjectSet" alt="" coords="5,5,88,35"/><area shape="rect" id="node4" href="classgame.html" title="game" alt="" coords="123,5,176,35"/></map>
+<center><span class="legend">[<a href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a31beecfc650064406d6142d8bb81236d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#a31beecfc650064406d6142d8bb81236d">scene</a> ()</td></tr>
+<tr class="separator:a31beecfc650064406d6142d8bb81236d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa97c9c1f46aa44e63223a737fcdcb496"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#aa97c9c1f46aa44e63223a737fcdcb496">~scene</a> ()</td></tr>
+<tr class="separator:aa97c9c1f46aa44e63223a737fcdcb496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad4860c2bbca3b31252f88a60fdb1c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#a1ad4860c2bbca3b31252f88a60fdb1c7">setInfo</a> (<a class="el" href="classgame.html">game</a> *g_base, <a class="el" href="classsubject_set.html">subjectSet</a> *sub_set)</td></tr>
+<tr class="separator:a1ad4860c2bbca3b31252f88a60fdb1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a572e8e9882390d6d86dce9700bce2c8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#a572e8e9882390d6d86dce9700bce2c8b">run</a> ()</td></tr>
+<tr class="separator:a572e8e9882390d6d86dce9700bce2c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca311d3031f0484fe40277e622be732e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#aca311d3031f0484fe40277e622be732e">initScene</a> ()</td></tr>
+<tr class="separator:aca311d3031f0484fe40277e622be732e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a08fd7306a1427f0603d6058061fc3714"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgame.html">game</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#a08fd7306a1427f0603d6058061fc3714">game_base</a></td></tr>
+<tr class="separator:a08fd7306a1427f0603d6058061fc3714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad792ae2d02569e5032ffe36ade948606"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsubject_set.html">subjectSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#ad792ae2d02569e5032ffe36ade948606">subject_set</a></td></tr>
+<tr class="separator:ad792ae2d02569e5032ffe36ade948606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a31beecfc650064406d6142d8bb81236d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">scene::scene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa97c9c1f46aa44e63223a737fcdcb496"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">scene::~scene </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="aca311d3031f0484fe40277e622be732e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void scene::initScene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classframe_edit_scene.html#aa082adb26e4c6b1dc13f1c843815af8f">frameEditScene</a>, <a class="el" href="classeffect_tuning_scene.html#a784013846231fa46518892f66d4883a3">effectTuningScene</a>, <a class="el" href="classmenu_scene.html#acc447797c8673e50bfe46cf1659fc9de">menuScene</a>, <a class="el" href="classgame_scene.html#a62cc35bea0ec4b6dac2ecb3969846b42">gameScene</a>, <a class="el" href="classorbit_edit_scene.html#a21721b58077f0ebad63302eae27ac2a7">orbitEditScene</a>で再実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a572e8e9882390d6d86dce9700bce2c8b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void scene::run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classframe_edit_scene.html#add805b5392802731ca064121b99c3ed1">frameEditScene</a>, <a class="el" href="classeffect_tuning_scene.html#a86d56cf84f0efc33025d2cb1a41ca3c9">effectTuningScene</a>, <a class="el" href="classmenu_scene.html#a13873597454cdd14340180bc796a4659">menuScene</a>, <a class="el" href="classgame_scene.html#ab46feb78bad1a655e8742b4a8cd5be1a">gameScene</a>, <a class="el" href="classorbit_edit_scene.html#a2af457ef42e3ecdfe8f6bfa7fc924240">orbitEditScene</a>で再実装されています。</p>
+
+</div>
+</div>
+<a class="anchor" id="a1ad4860c2bbca3b31252f88a60fdb1c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void scene::setInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgame.html">game</a> *&#160;</td>
+          <td class="paramname"><em>g_base</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classsubject_set.html">subjectSet</a> *&#160;</td>
+          <td class="paramname"><em>sub_set</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a class="anchor" id="a08fd7306a1427f0603d6058061fc3714"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgame.html">game</a>* scene::game_base</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad792ae2d02569e5032ffe36ade948606"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsubject_set.html">subjectSet</a>* scene::subject_set</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/a/Documents/Visual Studio 2010/Projects/frameShooter/frameShooter/<a class="el" href="scene_8h_source.html">scene.h</a></li>
+<li>C:/Users/a/Documents/Visual Studio 2010/Projects/frameShooter/frameShooter/<a class="el" href="scene_8cpp.html">scene.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+2017年03月21日(火) 10時49分55秒作成 - frameShooter / 構成:  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<map id="basicEnemy::basicEnemy" name="basicEnemy::basicEnemy">
+<area shape="rect" id="node3" href="$classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="455,27,553,57"/>
+<area shape="rect" id="node5" href="$structrectangle.html#a41e97d3a51c9fd79d0b4dd9559a21c0b" title="rectangle::setPosition" alt="" coords="237,81,384,110"/>
+<area shape="rect" id="node10" href="$structrectangle.html#aa6363f3c1d81a5945a97c3e7f09a19d3" title="rectangle::setShape" alt="" coords="241,27,380,57"/>
+<area shape="rect" id="node14" href="$namespacegio.html#a7e80dc575e217c7ff2fcb7bbac896905" title="gio::loadFile" alt="" coords="265,134,356,163"/>
+<area shape="rect" id="node16" href="$classsubject_set.html#ac4d2c53d83c39821f933181eccd394c0" title="subjectSet::setObserver" alt="" coords="231,187,391,217"/>
+<area shape="rect" id="node8" href="$structrectangle.html#a388da33db573c80c6207573ea19586d4" title="rectangle::update" alt="" coords="443,81,565,110"/>
+<area shape="rect" id="node18" href="$classsubject.html#a9c0767ad16340212e16372b130e9f10b" title="subject::setObserver" alt="" coords="616,190,757,219"/>
+<area shape="rect" id="node20" href="$classcollision_subjects.html#ac6e71923dd3bd98c70f8356291a59453" title="collisionSubjects::\lsetObserver" alt="" coords="440,211,568,257"/>
+</map>

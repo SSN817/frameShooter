@@ -1,0 +1,6 @@
+<map id="horizontalSlider::draw" name="horizontalSlider::draw">
+<area shape="rect" id="node3" href="$classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="207,5,305,35"/>
+<area shape="rect" id="node5" href="$namespacegio.html#a23dda4dc9ac01934a0adcefbc0143052" title="gio::drawVRect" alt="" coords="201,59,311,88"/>
+<area shape="rect" id="node9" href="$namespacegio.html#ae7ca3fa2eb093a0e58b1d60f5e0a1f18" title="gio::drawVLine" alt="" coords="203,112,309,141"/>
+<area shape="rect" id="node7" href="$namespacegio.html#a105a705202f7d8f435a4f285920fc80b" title="gio::vtor2D" alt="" coords="360,85,443,115"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="basicEnemy" name="basicEnemy">
+<area shape="rect" id="node2" href="$classenemy_shooter_observer.html" title="enemyShooterObserver" alt="" coords="5,83,163,112"/>
+<area shape="rect" id="node4" href="$classobserver.html" title="observer" alt="" coords="263,5,332,35"/>
+<area shape="rect" id="node8" href="$classdraw_observer.html" title="drawObserver" alt="" coords="187,83,285,112"/>
+<area shape="rect" id="node11" href="$classmove_observer.html" title="moveObserver" alt="" coords="309,83,411,112"/>
+<area shape="rect" id="node14" href="$classreproduction_observer.html" title="reproductionObserver" alt="" coords="435,83,579,112"/>
+<area shape="rect" id="node6" href="$classcollisionable_object.html" title="collisionableObject" alt="" coords="19,5,149,35"/>
+</map>

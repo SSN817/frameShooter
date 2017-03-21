@@ -1,0 +1,6 @@
+<map id="horizontalSlider" name="horizontalSlider">
+<area shape="rect" id="node2" href="$classdraw_observer.html" title="drawObserver" alt="" coords="5,83,104,112"/>
+<area shape="rect" id="node4" href="$classobserver.html" title="observer" alt="" coords="144,5,213,35"/>
+<area shape="rect" id="node6" href="$classmove_observer.html" title="moveObserver" alt="" coords="128,83,229,112"/>
+<area shape="rect" id="node9" href="$classinput_observer.html" title="inputObserver" alt="" coords="253,83,355,112"/>
+</map>

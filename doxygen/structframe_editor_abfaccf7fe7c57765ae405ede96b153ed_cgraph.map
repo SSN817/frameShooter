@@ -1,0 +1,7 @@
+<map id="frameEditor::draw" name="frameEditor::draw">
+<area shape="rect" id="node3" href="$namespacegio.html#a23dda4dc9ac01934a0adcefbc0143052" title="gio::drawVRect" alt="" coords="180,5,289,35"/>
+<area shape="rect" id="node7" href="$namespacegio.html#aeef1896f91b559f37eabab312389a02a" title="gio::drawVString" alt="" coords="176,59,293,88"/>
+<area shape="rect" id="node5" href="$namespacegio.html#a105a705202f7d8f435a4f285920fc80b" title="gio::vtor2D" alt="" coords="341,5,424,35"/>
+<area shape="rect" id="node9" href="$namespacegio.html#a4481bba075f1d30f8b39a8e1ffc299bb" title="gio::vtorx" alt="" coords="345,59,420,88"/>
+<area shape="rect" id="node11" href="$namespacegio.html#aa119deb70d77cd2dffd5af26bcf4d0f8" title="gio::vtory" alt="" coords="345,112,420,141"/>
+</map>

@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>frameShooter: collisionableObject クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">frameShooter
+   </div>
+   <div id="projectbrief">partialBreakdownSTG</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="inherits.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>名前空間</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="classcollisionable_object-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">collisionableObject クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="shape_8h_source.html">shape.h</a>&gt;</code></p>
+<div class="dynheader">
+collisionableObject の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcollisionable_object__inherit__graph.png" border="0" usemap="#collisionable_object_inherit__map" alt="Inheritance graph"/></div>
+<map name="collisionable_object_inherit__map" id="collisionable_object_inherit__map">
+<area shape="rect" id="node3" href="classenemy_bullet_observer.html" title="enemyBulletObserver" alt="" coords="191,5,335,35"/><area shape="rect" id="node7" href="classenemy_shooter_observer.html" title="enemyShooterObserver" alt="" coords="184,59,341,88"/><area shape="rect" id="node11" href="classitem_observer.html" title="itemObserver" alt="" coords="213,112,312,141"/><area shape="rect" id="node13" href="classplayer_bullet_observer.html" title="playerBulletObserver" alt="" coords="192,165,333,195"/><area shape="rect" id="node17" href="classplayer_shooter_observer.html" title="playerShooterObserver" alt="" coords="187,219,339,248"/><area shape="rect" id="node5" href="classbasic_enemy_bullet.html" title="basicEnemyBullet" alt="" coords="391,5,516,35"/><area shape="rect" id="node9" href="classbasic_enemy.html" title="basicEnemy" alt="" coords="407,59,500,88"/><area shape="rect" id="node15" href="classdefault_bullet.html" title="defaultBullet" alt="" coords="407,165,500,195"/><area shape="rect" id="node19" href="classdefault_shooter.html" title="defaultShooter" alt="" coords="401,219,505,248"/></map>
+<center><span class="legend">[<a href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:acf55755375d2937d259c2dd21e8d30df"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structshape.html">shape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcollisionable_object.html#acf55755375d2937d259c2dd21e8d30df">getShape</a> ()</td></tr>
+<tr class="separator:acf55755375d2937d259c2dd21e8d30df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="acf55755375d2937d259c2dd21e8d30df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="structshape.html">shape</a>* collisionableObject::getShape </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classdefault_shooter.html#aa90d62335a0e66b4a116e34968b82d56">defaultShooter</a>, <a class="el" href="classbasic_enemy_bullet.html#a4cd3f17cde75581ec2ef042819f144ea">basicEnemyBullet</a>, <a class="el" href="classbasic_enemy.html#a1df10daf35f57be9c9dbcd6d7218e97f">basicEnemy</a>, <a class="el" href="classdefault_bullet.html#a0e334bdd13bebc94e70f0c7fc357b6b6">defaultBullet</a>で再実装されています。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/a/Documents/Visual Studio 2010/Projects/frameShooter/frameShooter/<a class="el" href="shape_8h_source.html">shape.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+2017年03月21日(火) 10時49分55秒作成 - frameShooter / 構成:  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

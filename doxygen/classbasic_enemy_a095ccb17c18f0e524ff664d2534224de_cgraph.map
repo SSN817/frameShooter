@@ -1,0 +1,6 @@
+<map id="basicEnemy::reproduction" name="basicEnemy::reproduction">
+<area shape="rect" id="node3" href="$classbasic_enemy_bullet.html#a3f92af06d9b1a8e4c30f99ab0d34c737" title="basicEnemyBullet::setPosition" alt="" coords="227,5,427,35"/>
+<area shape="rect" id="node5" href="$classsubject_set.html#ac4d2c53d83c39821f933181eccd394c0" title="subjectSet::setObserver" alt="" coords="247,59,407,88"/>
+<area shape="rect" id="node7" href="$classsubject.html#a9c0767ad16340212e16372b130e9f10b" title="subject::setObserver" alt="" coords="651,59,792,88"/>
+<area shape="rect" id="node9" href="$classcollision_subjects.html#ac6e71923dd3bd98c70f8356291a59453" title="collisionSubjects::\lsetObserver" alt="" coords="475,79,603,126"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="reproductionObserver" name="reproductionObserver">
+<area shape="rect" id="node5" href="$classbasic_enemy.html" title="basicEnemy" alt="" coords="5,160,99,189"/>
+<area shape="rect" id="node7" href="$classdefault_shooter.html" title="defaultShooter" alt="" coords="123,160,227,189"/>
+<area shape="rect" id="node2" href="$classobserver.html" title="observer" alt="" coords="79,5,148,35"/>
+</map>

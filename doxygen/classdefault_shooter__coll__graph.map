@@ -1,0 +1,10 @@
+<map id="defaultShooter" name="defaultShooter">
+<area shape="rect" id="node2" href="$classplayer_shooter_observer.html" title="playerShooterObserver" alt="" coords="5,101,157,131"/>
+<area shape="rect" id="node4" href="$classobserver.html" title="observer" alt="" coords="320,5,389,35"/>
+<area shape="rect" id="node8" href="$classdraw_observer.html" title="drawObserver" alt="" coords="181,101,280,131"/>
+<area shape="rect" id="node11" href="$classmove_observer.html" title="moveObserver" alt="" coords="304,101,405,131"/>
+<area shape="rect" id="node14" href="$classsound_observer.html" title="soundObserver" alt="" coords="429,101,536,131"/>
+<area shape="rect" id="node17" href="$classreproduction_observer.html" title="reproductionObserver" alt="" coords="560,101,704,131"/>
+<area shape="rect" id="node6" href="$classcollisionable_object.html" title="collisionableObject" alt="" coords="16,5,147,35"/>
+<area shape="rect" id="node20" href="$classsubject_set.html" title="subjectSet" alt="" coords="591,5,673,35"/>
+</map>

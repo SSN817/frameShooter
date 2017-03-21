@@ -1,0 +1,461 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>frameShooter: frameEditScene クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">frameShooter
+   </div>
+   <div id="projectbrief">partialBreakdownSTG</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li><a href="namespaces.html"><span>名前空間</span></a></li>
+      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
+      <li><a href="files.html"><span>ファイル</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
+      <li><a href="classes.html"><span>クラス索引</span></a></li>
+      <li><a href="inherits.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>クラス</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>名前空間</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>ファイル</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>関数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>変数</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="classframe_edit_scene-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">frameEditScene クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="frame_edit_scene_8h_source.html">frameEditScene.h</a>&gt;</code></p>
+<div class="dynheader">
+frameEditScene の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene__inherit__graph.png" border="0" usemap="#frame_edit_scene_inherit__map" alt="Inheritance graph"/></div>
+<map name="frame_edit_scene_inherit__map" id="frame_edit_scene_inherit__map">
+<area shape="rect" id="node2" href="classscene.html" title="scene" alt="" coords="35,5,91,35"/></map>
+<center><span class="legend">[<a href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+frameEditScene 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene__coll__graph.png" border="0" usemap="#frame_edit_scene_coll__map" alt="Collaboration graph"/></div>
+<map name="frame_edit_scene_coll__map" id="frame_edit_scene_coll__map">
+<area shape="rect" id="node2" href="classscene.html" title="scene" alt="" coords="69,101,125,131"/><area shape="rect" id="node4" href="classsubject_set.html" title="subjectSet" alt="" coords="5,5,88,35"/><area shape="rect" id="node6" href="classgame.html" title="game" alt="" coords="123,5,176,35"/></map>
+<center><span class="legend">[<a href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:af16bece5bceeb8511455d96c68bdf978"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#af16bece5bceeb8511455d96c68bdf978">frameEditScene</a> (void)</td></tr>
+<tr class="separator:af16bece5bceeb8511455d96c68bdf978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e23d33900de043f30ac131e8a1984cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#a1e23d33900de043f30ac131e8a1984cb">~frameEditScene</a> (void)</td></tr>
+<tr class="separator:a1e23d33900de043f30ac131e8a1984cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9776b1c0da52184a3c61bb0f0e0d5f46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#a9776b1c0da52184a3c61bb0f0e0d5f46">drawLineOnPlane</a> (int x1, int y1, int x2, int y2, int color)</td></tr>
+<tr class="separator:a9776b1c0da52184a3c61bb0f0e0d5f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa98c5c98dee8e577e13f6dd256dc065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#afa98c5c98dee8e577e13f6dd256dc065">button</a> ()</td></tr>
+<tr class="separator:afa98c5c98dee8e577e13f6dd256dc065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a758fde77a2664218d9de7f5fa15e19e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#a758fde77a2664218d9de7f5fa15e19e6">save</a> ()</td></tr>
+<tr class="separator:a758fde77a2664218d9de7f5fa15e19e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db3b5dedb39b1635dc4fe1d8b94e476"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#a0db3b5dedb39b1635dc4fe1d8b94e476">edit</a> ()</td></tr>
+<tr class="separator:a0db3b5dedb39b1635dc4fe1d8b94e476"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66ce1912d1d4ff9845205926f8262be1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#a66ce1912d1d4ff9845205926f8262be1">movePlane</a> ()</td></tr>
+<tr class="separator:a66ce1912d1d4ff9845205926f8262be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff93a27155af5bd02e1a00a44d9cb00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#aaff93a27155af5bd02e1a00a44d9cb00">drawPointer</a> ()</td></tr>
+<tr class="separator:aaff93a27155af5bd02e1a00a44d9cb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d2a258fc876186988193d6848c38d9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#a3d2a258fc876186988193d6848c38d9b">drawLine</a> ()</td></tr>
+<tr class="separator:a3d2a258fc876186988193d6848c38d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add805b5392802731ca064121b99c3ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#add805b5392802731ca064121b99c3ed1">run</a> ()</td></tr>
+<tr class="separator:add805b5392802731ca064121b99c3ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa082adb26e4c6b1dc13f1c843815af8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classframe_edit_scene.html#aa082adb26e4c6b1dc13f1c843815af8f">initScene</a> ()</td></tr>
+<tr class="separator:aa082adb26e4c6b1dc13f1c843815af8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classscene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classscene')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="classscene.html">scene</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a31beecfc650064406d6142d8bb81236d inherit pub_methods_classscene"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#a31beecfc650064406d6142d8bb81236d">scene</a> ()</td></tr>
+<tr class="separator:a31beecfc650064406d6142d8bb81236d inherit pub_methods_classscene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa97c9c1f46aa44e63223a737fcdcb496 inherit pub_methods_classscene"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#aa97c9c1f46aa44e63223a737fcdcb496">~scene</a> ()</td></tr>
+<tr class="separator:aa97c9c1f46aa44e63223a737fcdcb496 inherit pub_methods_classscene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad4860c2bbca3b31252f88a60fdb1c7 inherit pub_methods_classscene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#a1ad4860c2bbca3b31252f88a60fdb1c7">setInfo</a> (<a class="el" href="classgame.html">game</a> *g_base, <a class="el" href="classsubject_set.html">subjectSet</a> *sub_set)</td></tr>
+<tr class="separator:a1ad4860c2bbca3b31252f88a60fdb1c7 inherit pub_methods_classscene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_attribs_classscene"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classscene')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="classscene.html">scene</a> に属する継承限定公開変数類</td></tr>
+<tr class="memitem:a08fd7306a1427f0603d6058061fc3714 inherit pro_attribs_classscene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgame.html">game</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#a08fd7306a1427f0603d6058061fc3714">game_base</a></td></tr>
+<tr class="separator:a08fd7306a1427f0603d6058061fc3714 inherit pro_attribs_classscene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad792ae2d02569e5032ffe36ade948606 inherit pro_attribs_classscene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsubject_set.html">subjectSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classscene.html#ad792ae2d02569e5032ffe36ade948606">subject_set</a></td></tr>
+<tr class="separator:ad792ae2d02569e5032ffe36ade948606 inherit pro_attribs_classscene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="af16bece5bceeb8511455d96c68bdf978"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">frameEditScene::frameEditScene </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1e23d33900de043f30ac131e8a1984cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">frameEditScene::~frameEditScene </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="afa98c5c98dee8e577e13f6dd256dc065"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frameEditScene::button </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene_afa98c5c98dee8e577e13f6dd256dc065_cgraph.png" border="0" usemap="#classframe_edit_scene_afa98c5c98dee8e577e13f6dd256dc065_cgraph" alt=""/></div>
+<map name="classframe_edit_scene_afa98c5c98dee8e577e13f6dd256dc065_cgraph" id="classframe_edit_scene_afa98c5c98dee8e577e13f6dd256dc065_cgraph">
+<area shape="rect" id="node3" href="namespacegio.html#aad7b8e9f41029fcb1cdbfea6c6f2263f" title="gio::isKeyHitted" alt="" coords="213,5,328,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d2a258fc876186988193d6848c38d9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frameEditScene::drawLine </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene_a3d2a258fc876186988193d6848c38d9b_cgraph.png" border="0" usemap="#classframe_edit_scene_a3d2a258fc876186988193d6848c38d9b_cgraph" alt=""/></div>
+<map name="classframe_edit_scene_a3d2a258fc876186988193d6848c38d9b_cgraph" id="classframe_edit_scene_a3d2a258fc876186988193d6848c38d9b_cgraph">
+<area shape="rect" id="node3" href="classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="231,5,329,35"/><area shape="rect" id="node5" href="namespacegio.html#ae7ca3fa2eb093a0e58b1d60f5e0a1f18" title="gio::drawVLine" alt="" coords="227,59,333,88"/><area shape="rect" id="node7" href="namespacegio.html#a105a705202f7d8f435a4f285920fc80b" title="gio::vtor2D" alt="" coords="381,59,464,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9776b1c0da52184a3c61bb0f0e0d5f46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frameEditScene::drawLineOnPlane </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene_a9776b1c0da52184a3c61bb0f0e0d5f46_cgraph.png" border="0" usemap="#classframe_edit_scene_a9776b1c0da52184a3c61bb0f0e0d5f46_cgraph" alt=""/></div>
+<map name="classframe_edit_scene_a9776b1c0da52184a3c61bb0f0e0d5f46_cgraph" id="classframe_edit_scene_a9776b1c0da52184a3c61bb0f0e0d5f46_cgraph">
+<area shape="rect" id="node3" href="classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="233,5,332,35"/><area shape="rect" id="node5" href="namespacegio.html#a23dda4dc9ac01934a0adcefbc0143052" title="gio::drawVRect" alt="" coords="228,59,337,88"/><area shape="rect" id="node7" href="namespacegio.html#a105a705202f7d8f435a4f285920fc80b" title="gio::vtor2D" alt="" coords="387,59,469,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aaff93a27155af5bd02e1a00a44d9cb00"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frameEditScene::drawPointer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene_aaff93a27155af5bd02e1a00a44d9cb00_cgraph.png" border="0" usemap="#classframe_edit_scene_aaff93a27155af5bd02e1a00a44d9cb00_cgraph" alt=""/></div>
+<map name="classframe_edit_scene_aaff93a27155af5bd02e1a00a44d9cb00_cgraph" id="classframe_edit_scene_aaff93a27155af5bd02e1a00a44d9cb00_cgraph">
+<area shape="rect" id="node3" href="namespacegio.html#ae77a7b12e4d2da77dd0f6e84f2ed848f" title="gio::rtov2D" alt="" coords="259,5,341,35"/><area shape="rect" id="node5" href="namespacegio.html#af69f84947a8975842147742e03658530" title="gio::nowMouse" alt="" coords="245,59,355,88"/><area shape="rect" id="node7" href="frame_edit_scene_8cpp.html#ac1d4ee09782b3228b641c1ef725fc451" title="round" alt="" coords="273,112,327,141"/><area shape="rect" id="node9" href="namespacegio.html#a4481bba075f1d30f8b39a8e1ffc299bb" title="gio::vtorx" alt="" coords="263,165,337,195"/><area shape="rect" id="node11" href="namespacegio.html#aa119deb70d77cd2dffd5af26bcf4d0f8" title="gio::vtory" alt="" coords="263,219,337,248"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0db3b5dedb39b1635dc4fe1d8b94e476"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frameEditScene::edit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene_a0db3b5dedb39b1635dc4fe1d8b94e476_cgraph.png" border="0" usemap="#classframe_edit_scene_a0db3b5dedb39b1635dc4fe1d8b94e476_cgraph" alt=""/></div>
+<map name="classframe_edit_scene_a0db3b5dedb39b1635dc4fe1d8b94e476_cgraph" id="classframe_edit_scene_a0db3b5dedb39b1635dc4fe1d8b94e476_cgraph">
+<area shape="rect" id="node3" href="namespacegio.html#a3f915167843ca0e4182ab223eac8abde" title="gio::isMouseHitted" alt="" coords="201,5,332,35"/><area shape="rect" id="node5" href="structrectangle.html#aa6363f3c1d81a5945a97c3e7f09a19d3" title="rectangle::setShape" alt="" coords="197,59,336,88"/><area shape="rect" id="node7" href="classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="396,32,495,61"/><area shape="rect" id="node9" href="structrectangle.html#a388da33db573c80c6207573ea19586d4" title="rectangle::update" alt="" coords="384,85,507,115"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa082adb26e4c6b1dc13f1c843815af8f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frameEditScene::initScene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classscene.html#aca311d3031f0484fe40277e622be732e">scene</a>を再実装しています。</p>
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene_aa082adb26e4c6b1dc13f1c843815af8f_cgraph.png" border="0" usemap="#classframe_edit_scene_aa082adb26e4c6b1dc13f1c843815af8f_cgraph" alt=""/></div>
+<map name="classframe_edit_scene_aa082adb26e4c6b1dc13f1c843815af8f_cgraph" id="classframe_edit_scene_aa082adb26e4c6b1dc13f1c843815af8f_cgraph">
+<area shape="rect" id="node3" href="classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="259,5,357,35"/><area shape="rect" id="node5" href="classhorizontal_slider.html#ac6da637c8b4da883defc2db718fb1084" title="horizontalSlider::setInfo" alt="" coords="229,59,387,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a66ce1912d1d4ff9845205926f8262be1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frameEditScene::movePlane </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene_a66ce1912d1d4ff9845205926f8262be1_cgraph.png" border="0" usemap="#classframe_edit_scene_a66ce1912d1d4ff9845205926f8262be1_cgraph" alt=""/></div>
+<map name="classframe_edit_scene_a66ce1912d1d4ff9845205926f8262be1_cgraph" id="classframe_edit_scene_a66ce1912d1d4ff9845205926f8262be1_cgraph">
+<area shape="rect" id="node3" href="namespacegio.html#a3f915167843ca0e4182ab223eac8abde" title="gio::isMouseHitted" alt="" coords="247,5,377,35"/><area shape="rect" id="node5" href="namespacegio.html#ae77a7b12e4d2da77dd0f6e84f2ed848f" title="gio::rtov2D" alt="" coords="271,59,353,88"/><area shape="rect" id="node7" href="namespacegio.html#af69f84947a8975842147742e03658530" title="gio::nowMouse" alt="" coords="257,112,367,141"/><area shape="rect" id="node9" href="namespacegio.html#a994d4132e768861f4e079fae14bb0c38" title="gio::isMousePressed" alt="" coords="240,165,384,195"/><area shape="rect" id="node11" href="namespacegio.html#aad7b8e9f41029fcb1cdbfea6c6f2263f" title="gio::isKeyHitted" alt="" coords="255,219,369,248"/><area shape="rect" id="node13" href="classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="263,272,361,301"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="add805b5392802731ca064121b99c3ed1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frameEditScene::run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classscene.html#a572e8e9882390d6d86dce9700bce2c8b">scene</a>を再実装しています。</p>
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene_add805b5392802731ca064121b99c3ed1_cgraph.png" border="0" usemap="#classframe_edit_scene_add805b5392802731ca064121b99c3ed1_cgraph" alt=""/></div>
+<map name="classframe_edit_scene_add805b5392802731ca064121b99c3ed1_cgraph" id="classframe_edit_scene_add805b5392802731ca064121b99c3ed1_cgraph">
+<area shape="rect" id="node3" href="classvector2_d.html#af370dbbb4736d25e6700bb4a563b2708" title="vector2D::set" alt="" coords="203,5,301,35"/><area shape="rect" id="node5" href="namespacegio.html#a23dda4dc9ac01934a0adcefbc0143052" title="gio::drawVRect" alt="" coords="197,59,307,88"/><area shape="rect" id="node9" href="namespacegio.html#a4481bba075f1d30f8b39a8e1ffc299bb" title="gio::vtorx" alt="" coords="215,112,289,141"/><area shape="rect" id="node11" href="namespacegio.html#aa119deb70d77cd2dffd5af26bcf4d0f8" title="gio::vtory" alt="" coords="215,165,289,195"/><area shape="rect" id="node13" href="namespacegio.html#aad7b8e9f41029fcb1cdbfea6c6f2263f" title="gio::isKeyHitted" alt="" coords="195,219,309,248"/><area shape="rect" id="node7" href="namespacegio.html#a105a705202f7d8f435a4f285920fc80b" title="gio::vtor2D" alt="" coords="357,59,440,88"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a758fde77a2664218d9de7f5fa15e19e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frameEditScene::save </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classframe_edit_scene_a758fde77a2664218d9de7f5fa15e19e6_cgraph.png" border="0" usemap="#classframe_edit_scene_a758fde77a2664218d9de7f5fa15e19e6_cgraph" alt=""/></div>
+<map name="classframe_edit_scene_a758fde77a2664218d9de7f5fa15e19e6_cgraph" id="classframe_edit_scene_a758fde77a2664218d9de7f5fa15e19e6_cgraph">
+<area shape="rect" id="node3" href="namespacegio.html#aad7b8e9f41029fcb1cdbfea6c6f2263f" title="gio::isKeyHitted" alt="" coords="203,5,317,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/a/Documents/Visual Studio 2010/Projects/frameShooter/frameShooter/<a class="el" href="frame_edit_scene_8h_source.html">frameEditScene.h</a></li>
+<li>C:/Users/a/Documents/Visual Studio 2010/Projects/frameShooter/frameShooter/<a class="el" href="frame_edit_scene_8cpp.html">frameEditScene.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+2017年03月21日(火) 10時49分55秒作成 - frameShooter / 構成:  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>
