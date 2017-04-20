@@ -6,7 +6,7 @@
   
 # ドキュメント  
 doxygenのドキュメントがあります.  
-doxygen/index.htmlを見てください.  
+doxygenフォルダをダウンロードして適当なブラウザでdoxygen/index.htmlを見てください.  
 # 遊び方  
 制作途中ですがoutput/frameShooter.exeを起動することで遊べます.  
 Gキーでゲームモード,Mキーでメニューへ戻る,Aキーで弾発射です.  
