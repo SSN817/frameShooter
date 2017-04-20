@@ -9,5 +9,5 @@ doxygenのドキュメントがあります.
 doxygenフォルダをダウンロードして適当なブラウザでdoxygen/index.htmlを見てください.  
 # 遊び方  
 制作途中ですがoutputディレクトリをダウンロードし、output/frameShooter.exeを起動することで遊べます.  
-Gキーでゲームモード,Mキーでメニューへ戻る,Aキーで弾発射です.  
+Gキーでゲームモード,Mキーでメニューへ戻る,Aキーで弾発射、上下左右キーで移動です.  
 ![demo](https://github.com/SSN817/frameShooter/blob/master/demo.png)  
